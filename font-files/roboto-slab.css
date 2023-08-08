@@ -1,0 +1,7 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'roboto-slab';
+  /* font-style: normal;
+  font-weight: 400; */
+  src: url(/font-files/roboto-slab-src/RobotoSlab-Regular.ttf);
+}
