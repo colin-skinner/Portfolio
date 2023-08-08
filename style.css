@@ -1,0 +1,11 @@
+body {
+    background-color: #2774AE;
+    font-family: 'comic-sans';font-size: 22px;
+    /* FFD100 for yellow */
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
