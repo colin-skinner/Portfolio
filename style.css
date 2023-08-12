@@ -1,48 +1,49 @@
-html {
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
     scroll-behavior: smooth;
 }
 
 body {
     background-color: #2774AE;
-    font-family: 'roboto-slab';font-size: 22px; font-weight: bold; color:white;
+    font-family: 'roboto-slab';
+    font-size: 22px;
+    font-weight: bold;
+    color:white;
+    margin: 0px;
     /* FFD100 for yellow */
 }
 
-/* .header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-} */
-
-.header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
-  
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+    display: inline;
 }
 
-h1 {
-    color: blue;
-}
-p {
-    color: red;
+nav {
+    font-family: 'roboto-slab';
+    background: #555;
+    color: #f1f1f1;
+    text-align: center;
+    vertical-align: middle;
+
+    position: relative;
+    top: 0;
+    /* height: 50px; */
+    width: 100%; 
+    /* margin: -8px; */
 }
 
-/* Page content */
-.content {
-  padding: 16px;
+ul.nav-bar {
+    list-style-type: none;
+    display: inline;
 }
+
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
